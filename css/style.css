@@ -9,9 +9,15 @@ body {
 
 .hero {
   background-image: url("../assets/header-L.png");
+  background-repeat: no-repeat;
+  background-size: cover;
   height: 70vh;
   padding: 2rem;
 }
 .container-fluid img{
   height: 3rem;
+}
+
+h1{
+  font-weight: bold;
 }
