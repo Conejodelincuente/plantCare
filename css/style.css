@@ -11,6 +11,7 @@ body {
   background-image: url("../assets/header-L.png");
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: right;
   height: 70vh;
   padding: 2rem;
 }
@@ -20,4 +21,41 @@ body {
 
 h1{
   font-weight: bold;
+}
+
+
+/*Cards*/
+
+
+.card{
+  width: 18rem;
+  height: 25rem;
+  padding: 0;
+}
+.card p{
+  font-size: 1rem;
+}
+.card img{
+  height: 12rem;
+  width: 100%;
+}
+
+/* call to action section */
+
+.calltoaction{
+  min-height: 70vh;
+}
+@media (max-width: 992px){
+
+  .texto-call{
+  max-height: 15rem;
+  min-height: 200px;
+}
+}
+
+.foto_call{
+  background-image: url("../assets/cuidados.png");
+  background-size: cover;
+  background-position: right;
+  background-repeat: no-repeat;
 }
