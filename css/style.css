@@ -1,4 +1,3 @@
-
 /* ========== Reset y estilos generales ========== */
 
 * {
@@ -11,11 +10,9 @@ body {
   overflow-x: hidden;
 }
 
-
-h1{
+h1 {
   font-weight: bold;
 }
-
 
 /* ========== Hero ========== */
 
@@ -30,46 +27,43 @@ h1{
 
 /* ========== Navbar ========== */
 
-.container-fluid img{
+.container-fluid img {
   height: 3rem;
 }
 
-
 /* ========== Cards de plantas ========== */
 
-
-.card{
+.card {
   width: 18rem;
   height: 25rem;
 }
-.card p{
+.card p {
   font-size: 1rem;
 }
-.card img{
+.card img {
   height: 12rem;
   width: 100%;
 }
 
 /* ========== Call to action ========== */
 
-.calltoaction{
+.calltoaction {
   min-height: 70vh;
 }
-@media (max-width: 992px){
-
-  .texto-call{
-  max-height: 15rem;
-  min-height: 200px;
+@media (max-width: 992px) {
+  .texto-call {
+    max-height: 15rem;
+    min-height: 200px;
+  }
 }
-}
 
-.foto_call{
+.foto_call {
   background-image: url("../assets/cuidados.png");
   background-size: cover;
   background-position: right;
   background-repeat: no-repeat;
 }
-.foto_call-2{
+.foto_call-2 {
   background-image: url("../assets/cuidados-2.png");
   background-size: cover;
   background-position: left;
@@ -93,4 +87,22 @@ h1{
 .btn-secondary:hover {
   background-color: #1e4029;
   border-color: #1e4029;
+}
+
+/* ========== sección de Plantas ========== */
+
+.plant-section {
+  background-color: #1e4029;
+  background-color: #e1f2e776 !important;
+  border-radius: 0.5rem;
+}
+
+.plant-card {
+  background-color: #f8f9fa;
+  border-radius: 16px;
+  padding: 1.5rem;
+}
+
+.plant-card .product-image img {
+  border-radius: 12px;
 }
